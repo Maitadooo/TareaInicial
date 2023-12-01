@@ -1,0 +1,23 @@
+* {
+    border-width: 2px;
+    border-style: solid;
+    border-color:black; }
+body {
+    width: 750px; }
+header {
+    display: flex;
+    height: 250px; }
+main {
+    display: flex;
+    flex-flow: row;
+    height: 400px;
+}
+nav,footer {
+    height: 50px;
+}
+aside {
+    width: 150px;
+}
+article,#banner {
+    width: 500px;
+}
